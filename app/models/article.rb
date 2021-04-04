@@ -4,4 +4,5 @@ class Article < ApplicationRecord
   belongs_to :user
   has_many :article_categories
   has_many :categories, through: :article_categories
+  scope :custom_display, -> { order(:updated_at => :desc) }
 end

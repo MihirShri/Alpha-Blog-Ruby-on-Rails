@@ -5,11 +5,11 @@ class UsersController < ApplicationController
   before_action :require_same_user_delete, only: [:destroy]
 
   def show
-    @articles = @user.articles.paginate(page: params[:page], per_page: 5)
+    @articles = @user.articles.paginate(page: params[:page], per_page: 5).custom_display
   end
 
   def index
-    @users = User.paginate(page: params[:page], per_page: 5)
+    @users = User.paginate(page: params[:page], per_page: 5).custom_display
   end
 
   def new
