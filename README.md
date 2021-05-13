@@ -13,3 +13,4 @@ Just clone this repository on your local machine and run **bundle install --with
 
 # Screenshots
 <img src="https://github.com/MihirShri/Alpha-Blog-Ruby-on-Rails/blob/master/netflix1.jpg" />
+<img src="https://github.com/MihirShri/Alpha-Blog-Ruby-on-Rails/blob/master/Alpha%20blog%202.jpg">
